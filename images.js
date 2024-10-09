@@ -1,4 +1,4 @@
-const images = ['landscaping1.jpg', 'landscaping2.jpg', 'landscaping3.jpg', 'landscaping4.jpg', 'landscaping5.jpg', 'landscaping6.jpg'];
+const images = ['landscaping1.jpg', 'landscaping2.jpg', 'landscaping3.jpg', 'landscaping4.jpg', 'landscaping5.jpg'];
 const itemList = document.querySelector('#item-list');
 for(let i = 0; i < images.length; i++){
   const image = document.createElement('img');
